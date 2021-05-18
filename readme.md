@@ -12,6 +12,11 @@
 
 ### Kiril
 
+- Data Cleaning
+- Data Target Encoding (Store based on Customers, DayOfWeek based on Customers) 
+- Train / Test split
+- Baseline Model with Average 
+- Random Forest Regressor
 
 
 
