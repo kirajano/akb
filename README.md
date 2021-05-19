@@ -18,7 +18,7 @@ We go through the following steps:
     drop data where promo is NaN
     drop SchoolHoliday data where promo is NaN
     drop parameters that don't seem useful:   
-        ('CompetitionOpenSinceMonth','CompetitionOpenSinceYear',/
+          ('CompetitionOpenSinceMonth','CompetitionOpenSinceYear',/
           'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval')
     drop all rows with NaNs - Approximately 3% of rows
     convert all the columns to int when necessary
