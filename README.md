@@ -21,13 +21,11 @@ We go through the following steps:
         ('CompetitionOpenSinceMonth','CompetitionOpenSinceYear',/
           'Promo2SinceWeek', 'Promo2SinceYear', 'PromoInterval')
     drop all rows with NaNs - Approximately 3% of rows
-
     convert all the columns to int when necessary
 
 3- Encoding:   
     add Month as dummies
     add a feature for scaled CompetitionDistance
-
     convert DayOfWeek to dummies
     convert StateHoliday to dummies
     convert StoreType to dummies
